@@ -47,5 +47,11 @@ install(FILES
     gmsk_demod.h
     dslwp_tm_header_parser.h
     file_sink_pdu.h
-    dslwp_tm_parser.h DESTINATION include/lilacsat
+    dslwp_tm_parser.h
+    two_bit_dpd_precoder.h
+    attach_preamble_and_tailer.h
+    attach_rs_codeblock.h
+    pdu_f32_to_u8.h
+    two_bit_dpd_frame_recovery.h
+    rs_decode_pdu.h DESTINATION include/lilacsat
 )

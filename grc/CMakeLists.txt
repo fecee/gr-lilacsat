@@ -45,5 +45,11 @@ install(FILES
     lilacsat_camera_telemetry_parser.xml
     lilacsat_dslwp_tm_header_parser.xml
     lilacsat_file_sink_pdu.xml
-    lilacsat_dslwp_tm_parser.xml DESTINATION share/gnuradio/grc/blocks
+    lilacsat_dslwp_tm_parser.xml
+    lilacsat_two_bit_dpd_precoder.xml
+    lilacsat_attach_preamble_and_tailer.xml
+    lilacsat_attach_rs_codeblock.xml
+    lilacsat_pdu_f32_to_u8.xml
+    lilacsat_two_bit_dpd_frame_recovery.xml
+    lilacsat_rs_decode_pdu.xml DESTINATION share/gnuradio/grc/blocks
 )
